@@ -73,6 +73,7 @@ en:
        fruit: [Blood Orange, Lime, Fig, Grapes, Lemon, Pomelo, Apple, Orange, Tangerine, Strawberry, Cherry, Apricot, Peach, Plum, Blueberry, Melon, Vanilla, Wineberry]
        vegetable: [Avocado, Corn, Tomato, Potato, Cabbage, Lettuce, Green Beans, Beans, Chille, Carrot, Sweet Pepper, Cucumber, Zucchini, Artichoke, Broccoli, Pumpkin]
        meat: [Beef, Chiken, Lamb, Turkey, Goose, Duck, Buffalo, Horse, Goat, Rabbit, Ham, Pork, Camel, Dog, Monkey, Bear, Rat, Kangaroo]
+       fish: [Shark, Atlantic Eel, Salmon, Dorado, Clownfish, Cod, Carp, Shrimps, Tuna, Turtle, Hake, Swordfish, Sunfish, Snapper, Sea Devil, Sea Bass, Sardine]
        main_course:
          prefix: [Fried, Baked, Mashed, Roast, Toasted, Barbecued, Smoked, Boiled, Marinated, Raw]
          suffix: [Casserole, Soup, Pot Pie, Pizza, Salad, Burger, Sandwich, Stew, Kebab, Sausage, Steak, Tartare, Pottage, Jugging]
