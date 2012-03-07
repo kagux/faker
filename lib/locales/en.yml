@@ -70,20 +70,19 @@ en:
 
 
     food:
-       fruit: [Blood Orange, Lime, Fig, Grapes, Lemon, Pomelo, Apple, Orange, Tangerine, Avocado, Strawberry, Cherry, Apricot, Peach, Plum, Blueberry, Melon, Vanilla, Wineberry]
-       vegetable: [Corn, Tomato, Potato, Cabbage, Lettuce, Green Beans, Beans, Chille, Carrot, Sweet Pepper, Cucumber, Zucchini, Artichoke, Broccoli, Pumpkin]
-       meat: [Beef, Chiken, Lamb, Turkey, Goose, Duck, Buffalo, Horse, Goat, Rabbit, Ham, Pork, Camel, Dog]
-       fish: [Shark, Atlantic Eel, Salmon, Dorado, Clownfish, Cod, Carp, Shrimps]
+       fruit: [Blood Orange, Lime, Fig, Grapes, Lemon, Pomelo, Apple, Orange, Tangerine, Strawberry, Cherry, Apricot, Peach, Plum, Blueberry, Melon, Vanilla, Wineberry]
+       vegetable: [Avocado, Corn, Tomato, Potato, Cabbage, Lettuce, Green Beans, Beans, Chille, Carrot, Sweet Pepper, Cucumber, Zucchini, Artichoke, Broccoli, Pumpkin]
+       meat: [Beef, Chiken, Lamb, Turkey, Goose, Duck, Buffalo, Horse, Goat, Rabbit, Ham, Pork, Camel, Dog, Monkey, Bear, Rat, Kangaroo]
        main_course:
-         prefix: [Fried, Baked, Mashed, Roast, Toasted]
-         suffix: [Casserole, Soup, Pot Pie, Pizza, Salad, Burger, Sandwitch, Stew]
-       dessert: [Cake, Pudding, Cream, Pie, Chocolate, Jam]
-       temperature: [Cold, Hot]
+         prefix: [Fried, Baked, Mashed, Roast, Toasted, Barbecued, Smoked, Boiled, Marinated, Raw]
+         suffix: [Casserole, Soup, Pot Pie, Pizza, Salad, Burger, Sandwich, Stew, Kebab, Sausage, Steak, Tartare, Pottage, Jugging]
+       dessert: [Cake, Pudding, Cream, Pie, Chocolate, Jam, Muffin, Cookies, Bread, Custard, Milk Shake, Sherbet, Ice Cream, Biscuit, Mousse]
+       feature: [Cold, Hot, Spicy, Sweet, Sour]
        dish:
         - "#{fruit} #{dessert}"
         - "#{main_course.prefix} #{Food.main_course_category}"
         - "#{main_course.prefix} #{Food.main_course_category} with #{vegetable}"
         - "#{Food.main_course_category} #{main_course.suffix} with #{vegetable}"
-        - "#{temperature} #{Food.main_course_category} #{main_course.suffix}"
+        - "#{feature} #{Food.main_course_category} #{main_course.suffix}"
 
 

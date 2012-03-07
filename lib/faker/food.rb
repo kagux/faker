@@ -12,7 +12,7 @@ module Faker
       def fish; fetch ('food.fish') end
       def vegetable; fetch ('food.vegetable') end
       def dessert; fetch ('food.dessert') end
-      def temperature; fetch ('food.temperature') end
+      def feature; fetch ('food.feature') end
       def main_course_suffix; fetch ('food.main_course.suffix') end
       def main_course_prefix; fetch ('food.main_course.prefix') end
       def main_course_category
